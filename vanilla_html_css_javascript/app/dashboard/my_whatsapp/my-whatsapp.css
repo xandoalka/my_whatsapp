@@ -1,0 +1,212 @@
+.try-woowa-v2 {
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--radius-1);
+    background: rgba(201, 48, 44, 0.20);
+    font-weight: var(--font-bold);
+    font-size: 14px;
+    color: #C9302C;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+/* title + new licence */
+.title-new-licence {
+    display: flex;
+    /*width: 382px;*/
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title-new-licence p {
+    color: white;
+    font-weight: var(--font-bold);
+}
+
+.title-new-licence--btn {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 30px;
+    background: var(--green, #5CB85C);
+    transition: var(--transition);
+    outline-offset:  0;
+    outline: var(--green, #5CB85C) 1px solid;
+    color: white;
+}
+.title-new-licence--btn:hover{
+    transform: scale(0.95);
+    outline-offset:  3px;
+    outline: var(--green, #5CB85C) 1px solid;
+}
+
+.title-new-licence h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+}
+
+/* licence item */
+.licence-item {
+    border-radius: 12px;
+    border: 1px solid var(--gray-border, #E0E0E0);
+    background: var(--white, #FFF);
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.licence-item--centered {
+    margin-inline: 16px;
+    padding-bottom: 24px;
+}
+
+.licence-item--title-container {
+    display: flex;
+    /*width: 382px;*/
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-bg, #F2F2F2);
+    margin-bottom: 16px;
+}
+
+.licence-item--title-container div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.licence-item--title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: capitalize;
+}
+.licence-item--title-name {
+    text-transform: capitalize;
+}
+.licence-item--title-name + button{
+    transition: var(--transition);
+}
+.licence-item--title-name + button:hover {
+    transform: scale(0.9);
+}
+
+.licence-name {
+    display: flex;
+    justify-content: space-between;
+    /*margin-bottom: 16px;*/
+}
+
+.licence-name--info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.licence-subtitle {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.licence-name--info-id {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.licence-item--extend {
+    display: inline-flex;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--blue-extend-button, #286090);
+    font-size: 12px;
+    font-weight: var(--font-bold);
+    color: var(--white, #FFF);
+}
+
+/* registered domains*/
+.licence-domains-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.licence-domains-lists li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*licence -- WA sender*/
+.licence-id-phone {
+    color: var(--gray-text, #333);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.licence-id-phone span:first-child {
+    color: black;
+    font-weight: var(--font-bold);
+}
+
+/* licence-expired-id */
+.licence-expired-id {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.licence-expired-id div{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.expired-date{
+    text-transform: capitalize;
+}
+
+/* button--down-up-grade */
+.button--down-up-grade{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+    margin-inline: auto;
+    padding: 0 16px 24px 16px;
+    gap: 16px;
+}
+
+.button--down-up-grade button {
+    display: flex;
+    width: 167px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+.button--down-up-grade button.downgrade {
+    border: 1px solid var(--orange, #EC971F);
+    color: var(--orange, #EC971F);
+}
+.button--down-up-grade button.upgrade {
+    border: 1px solid var(--green, #5CB85C);
+    color: var(--green, #5CB85C);
+}
+
+/* dialog */
+.dialog{
+    top: 50%;
+    left: 50%;
+}

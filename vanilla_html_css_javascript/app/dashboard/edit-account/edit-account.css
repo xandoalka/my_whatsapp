@@ -1,0 +1,36 @@
+.ea-h1 {
+    font-size: 20px;
+    font-weight: var(--font-bold);
+    margin-bottom: 56px;
+}
+.ea-img{
+    width :160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    margin-inline: auto;
+    object-fit: cover;
+}
+.card-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.card-container h2{
+    font-size: 16px;
+    font-weight: var(--font-bold);
+    margin-bottom: 8px;
+}
+.remove-gap{
+    margin-bottom: 0;
+}
+.plus{
+    margin-bottom: 40px;
+    border: var(--gray-border) 1px solid;
+}
+.button[for="inputing-images-profile"]{
+    margin-bottom: 24px;
+    padding: 12px 48px;
+    width: fit-content;
+    margin-inline: auto;
+}

@@ -1,0 +1,33 @@
+.button-bot-option {
+    display: flex;
+    /*width: 382px;*/
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-inline: auto;
+    gap: 16px;
+    width: 100%;
+}
+/* Common styles for both .get-bot and .add-bot */
+.bot-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    font-weight: var(--font-bold);
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-grow: 1;
+}
+
+/* Styles for .get-bot */
+.get-bot {
+    background: var(--blue-extend-button, #276FAD);
+}
+
+/* Styles for .add-bot */
+.add-bot {
+    background: var(--green, #5CB85C);
+}

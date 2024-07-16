@@ -1,0 +1,83 @@
+.judul {
+    font-size: 20px;
+    font-weight: var(--font-bold);
+    line-height: 28px;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+h2.judul{
+    margin-top: 24px;
+}
+.order-title{
+    font-size: 16px;
+}
+.order-sub-title{
+    font-size: 14px;
+}
+.card-order-detail{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+.price-amount {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.calculate-price{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+}
+.calculate-price > div {
+    display: flex;
+    justify-content: space-between;
+}
+.calculate-price > div:last-child p{
+    font-weight: var(--font-bold);
+}
+.subs-status{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.subs--date-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.subs--date-total h4{
+    margin-bottom: 8px;
+}
+.button-order-container{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 8px;
+    gap: 14px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 16px;
+}
+.button-order{
+    padding: 12px;
+    flex-grow: 1;
+    font-size: 14px;
+}
+.billing-address{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+.billing-address > div {
+    display: flex;
+    gap: 16px;
+}

@@ -1,0 +1,22 @@
+h1{
+    font-size: 20px;
+    font-weight: var(--font-bold);
+    margin-bottom: 16px;
+}
+a.tutorial {
+    display: flex;
+    color: var(--gray-text);
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+a div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+a div:first-child img{
+    height: 40px;
+    width: 40px;
+}

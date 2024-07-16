@@ -1,0 +1,46 @@
+h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+h4{
+    font-size: 16px;
+}
+.mt{
+    margin-top: 16px;
+}
+.header-item-order {
+    justify-content: space-between;
+}
+.my-order-item-title{
+    font-size: 1rem;
+}
+.my-order-item-title + div {
+    display: flex;
+    gap: 8px;
+}
+.order--id-date, .order--price-amount{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.order--price-amount .price-amount{
+    display: flex;
+    justify-content: space-between;
+}
+.link-more-option{
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+}
+.link-more-option img{
+    width: 24px;
+    height: 24px;
+}
+.dialog{
+    top: 80%;
+    left: 50%;
+}
